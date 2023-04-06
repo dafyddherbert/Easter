@@ -16,7 +16,7 @@ public class HelloFunctionTest {
         testing.thenRun(HelloFunction.class, "handleRequest");
 
         FnResult result = testing.getOnlyResult();
-        assertEquals("Happy Easter, world!", result.getBodyAsString());
+        assertEquals("world Pasg Hapus, world!", result.getBodyAsString());
     }
 
 }
