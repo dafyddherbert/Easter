@@ -6,7 +6,7 @@ public class HelloFunction {
         String name = (input == null || input.isEmpty()) ? "world"  : input;
 
         System.out.println("Inside Java Hello World function"); 
-        return name + " Easter Finishxed, " + name + "!";
+        return name + " Easter Finishxyzed, " + name + "!";
     }
 
 }
